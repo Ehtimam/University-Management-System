@@ -4,5 +4,6 @@ University Management System or UMS is a system that is build for the general pu
 Project is build in java language with MySQL database. In order to set it up in your pc you first need to have Apachi Netbeans 12 or equvalent java programming enviornment. Create the database on a MySQL server. (WAMP or XAMP). Establish the connection of database and main code in conn.java; 
 
 Below described how every class works:
+
 conn.java---> It is a class that mainly connect database and main code. 
 
