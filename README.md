@@ -6,8 +6,13 @@ Project is build in java language with MySQL database. In order to set it up in 
 Below described how every class works:
 
 conn.java---> It is a class that mainly connect database and main code.
-starting.java---> Loading screen to start the system. Maximum loading time is 7 nm. From here user will redirected to ---> join.java ---> There are two option here either login or create a new accout; login.java & createAC.java;
-if chosen login.java---> System login. Users need to put username and password. If you are not registerd in the system you will get incorrect username and password. If you want to create an account you can directly go from here to createAC or return to join.java.
+starting.java---> Loading screen to start the system. Maximum loading time is 7 nm. From here user will redirected to ---> 
+join.java ---> There are two option here either login or create a new accout; login.java & createAC.java;
+
+if chosen login.java---> System login. Users need to put username and password. 
+If you are not registerd in the system you will get incorrect username and password.
+If you want to create an account you can directly go from here to createAC or return to join.java.
+
 else chosen createAC.java---> You can create an account here. return to login.java;
 
 
